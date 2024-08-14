@@ -1,0 +1,106 @@
+body{
+  background-color: #EEF7FF;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family:"poppins", sans-serif;   
+}
+
+.App{
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  background-color: #F6EACB;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  margin-top: -1.5rem ;
+  margin-bottom: -.5rem;
+}
+
+.title h3{
+  font-weight:bold;
+}
+
+.addTask{
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.addTask input{
+  padding: .5rem;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+  border: none;
+  background-color: #D1E9F6;
+  border-radius: 4px;
+}
+
+.addTask input:focus {
+  outline: none;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+}
+
+.addTask button{
+  border: none; 
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  color: #333;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: scale(0.95); /* Add a click animation effect */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for the click effect */
+}
+
+.icon{
+  height: 13px;
+  width: 13px;
+}
+
+
+
+.list--elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  word-wrap: break-word; /* Ensure long words wrap to the next line */
+  padding: 0.5rem;
+  margin-top: .5rem;
+  border-radius: 4px; /* Optional: Round the corners */
+  
+}
+
+.list--elements h4 {
+  flex: 1; /* Allow the text to take up available space */
+  margin: 0;
+  padding-right: 1rem; /* Add some space between text and button */
+  white-space: pre-wrap; /* Wrap text within the element */
+  overflow-wrap: break-word; /* Ensure long words are broken */
+}
+
+.list--elements button {
+  margin-left: 2.5rem;
+  height: 30px;
+  width: 35px;
+  border: none; 
+  background-color: #BFF6C3;
+  color: #333;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  box-shadow: 0px 2.98px 7.45px rgba(0, 0, 0, 0.4);
+}
+
+.list--elements button:active {
+  transform: scale(0.95); /* Add a click animation effect */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for the click effect */
+}
